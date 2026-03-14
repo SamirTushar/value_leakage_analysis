@@ -1,0 +1,53 @@
+{
+  "FMCG": {
+    "label": "FMCG / Consumer Goods",
+    "ready": true,
+    "benchmarks": {
+      "grossMargin": { "value": 0.39, "unit": "%", "source": "Screener.in FMCG sector average" },
+      "medianDIO": { "value": 60, "unit": "days", "source": "ReadyRatios — SEC filings, SIC 20" },
+      "bestInClassDIO": { "value": 45, "unit": "days", "source": "ReadyRatios top quartile" },
+      "typicalMAPE": { "value": 48, "unit": "%", "source": "E2open Forecasting Benchmark Study" },
+      "bestInClassMAPE": { "value": 30, "unit": "%", "source": "E2open Forecasting Benchmark Study" },
+      "freightPctOfCOGS": { "value": 0.05, "unit": "%", "source": "CSCMP State of Logistics Report" },
+      "expeditedPctOfFreight": { "value": 0.12, "unit": "%", "source": "Industry pattern" },
+      "carryingCostRate": { "value": 0.20, "unit": "%", "source": "Industry standard (capital + warehousing + insurance)" },
+      "lostSalesRate": { "value": 0.02, "unit": "%", "source": "Industry pattern — conservative" },
+      "writeOffRate": { "value": 0.015, "unit": "%", "source": "Industry pattern" },
+      "typicalFillRate": { "value": 96, "unit": "%", "source": "MetricHQ industry data" }
+    }
+  },
+  "QSR": {
+    "label": "QSR / Quick Service Restaurants",
+    "ready": false,
+    "benchmarks": {
+      "grossMargin": { "value": 0.62, "unit": "%", "source": "TBD — to be researched" },
+      "medianDIO": { "value": 12, "unit": "days", "source": "TBD" },
+      "bestInClassDIO": { "value": 7, "unit": "days", "source": "TBD" },
+      "typicalMAPE": { "value": 35, "unit": "%", "source": "TBD" },
+      "bestInClassMAPE": { "value": 20, "unit": "%", "source": "TBD" },
+      "freightPctOfCOGS": { "value": 0.08, "unit": "%", "source": "TBD" },
+      "expeditedPctOfFreight": { "value": 0.15, "unit": "%", "source": "TBD" },
+      "carryingCostRate": { "value": 0.25, "unit": "%", "source": "TBD — higher due to perishability" },
+      "lostSalesRate": { "value": 0.03, "unit": "%", "source": "TBD" },
+      "writeOffRate": { "value": 0.05, "unit": "%", "source": "TBD — higher due to perishability" },
+      "typicalFillRate": { "value": 97, "unit": "%", "source": "TBD" }
+    }
+  },
+  "Manufacturing": {
+    "label": "Industrial Manufacturing",
+    "ready": false,
+    "benchmarks": {
+      "grossMargin": { "value": 0.30, "unit": "%", "source": "TBD" },
+      "medianDIO": { "value": 106, "unit": "days", "source": "ReadyRatios — SEC filings, SIC 35" },
+      "bestInClassDIO": { "value": 75, "unit": "days", "source": "TBD" },
+      "typicalMAPE": { "value": 45, "unit": "%", "source": "TBD" },
+      "bestInClassMAPE": { "value": 28, "unit": "%", "source": "TBD" },
+      "freightPctOfCOGS": { "value": 0.04, "unit": "%", "source": "TBD" },
+      "expeditedPctOfFreight": { "value": 0.10, "unit": "%", "source": "TBD" },
+      "carryingCostRate": { "value": 0.18, "unit": "%", "source": "TBD" },
+      "lostSalesRate": { "value": 0.015, "unit": "%", "source": "TBD" },
+      "writeOffRate": { "value": 0.01, "unit": "%", "source": "TBD" },
+      "typicalFillRate": { "value": 94, "unit": "%", "source": "TBD" }
+    }
+  }
+}
